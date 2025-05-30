@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  flex: 0 0 20%;
+}
+
+main {
+  flex: 1 0 60%;
+  overflow-y: auto;
+}
+
+footer {
+  flex: 0 0 20%;
+}
